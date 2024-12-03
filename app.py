@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 #uzgarish 2
 # Load the trained model
-with open('pollution_model1.pkl', 'rb') as model_file:
+with open('pollution_model2.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
 # Streamlit app
